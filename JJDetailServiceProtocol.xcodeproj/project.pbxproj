@@ -51,6 +51,7 @@
 		9E40D5791E30C9ED0077E00F /* JJDetailServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJDetailServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E40D57D1E30C9ED0077E00F /* JJDetailServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDetailServiceProtocolUITests.m; sourceTree = "<group>"; };
 		9E40D57F1E30C9ED0077E00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E40D58C1E30CA130077E00F /* JJDetailServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJDetailServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		9E40D5571E30C9ED0077E00F /* JJDetailServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				9E40D58B1E30C9FE0077E00F /* JJDetailServiceProtocol */,
 				9E40D55B1E30C9ED0077E00F /* AppDelegate.h */,
 				9E40D55C1E30C9ED0077E00F /* AppDelegate.m */,
 				9E40D55E1E30C9ED0077E00F /* ViewController.h */,
@@ -138,6 +140,14 @@
 				9E40D57F1E30C9ED0077E00F /* Info.plist */,
 			);
 			path = JJDetailServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+		9E40D58B1E30C9FE0077E00F /* JJDetailServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				9E40D58C1E30CA130077E00F /* JJDetailServiceProtocol.h */,
+			);
+			path = JJDetailServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
